@@ -1,2 +1,2 @@
 # Go
-My example
+My example of Golang
