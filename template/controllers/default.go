@@ -13,7 +13,7 @@ func (c *MainController) Jade() {
 	c.TplName = "home.jade"
 }
 func (c *MainController)Ace() {
-	c.Data["content"] = "ace"
+	c.Data["content"] = "this is ace template"
 	c.TplName = "home.ace"
 }
 func (c *MainController)Index() {
