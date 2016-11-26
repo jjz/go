@@ -24,3 +24,4 @@ _testmain.go
 *.prof
 .idea
 template
+beego_auto_doc/swagger
