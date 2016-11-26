@@ -37,7 +37,7 @@
                     "object"
                 ],
                 "description": "create object",
-                "operationId": "ObjectController.Create",
+                "operationId": "ObjectController.create",
                 "parameters": [
                     {
                         "in": "body",
@@ -91,7 +91,7 @@
                     "object"
                 ],
                 "description": "update the object",
-                "operationId": "ObjectController.Update",
+                "operationId": "ObjectController.update",
                 "parameters": [
                     {
                         "in": "path",
@@ -126,7 +126,7 @@
                     "object"
                 ],
                 "description": "delete the object",
-                "operationId": "ObjectController.Delete",
+                "operationId": "ObjectController.delete",
                 "parameters": [
                     {
                         "in": "path",
@@ -152,7 +152,7 @@
                     "user"
                 ],
                 "description": "get all Users",
-                "operationId": "UserController.GetAll",
+                "operationId": "UserController.Get",
                 "responses": {
                     "200": {
                         "schema": {
@@ -166,7 +166,7 @@
                     "user"
                 ],
                 "description": "create users",
-                "operationId": "UserController.CreateUser",
+                "operationId": "UserController.createUser",
                 "parameters": [
                     {
                         "in": "body",
@@ -194,7 +194,7 @@
                     "user"
                 ],
                 "description": "Logs user into the system",
-                "operationId": "UserController.Login",
+                "operationId": "UserController.login",
                 "parameters": [
                     {
                         "in": "query",
@@ -267,7 +267,7 @@
                     "user"
                 ],
                 "description": "update the user",
-                "operationId": "UserController.Update",
+                "operationId": "UserController.update",
                 "parameters": [
                     {
                         "in": "path",
@@ -302,7 +302,7 @@
                     "user"
                 ],
                 "description": "delete the user",
-                "operationId": "UserController.Delete",
+                "operationId": "UserController.delete",
                 "parameters": [
                     {
                         "in": "path",

@@ -8,9 +8,8 @@
 package routers
 
 import (
-	"beeapi/controllers"
-
 	"github.com/astaxie/beego"
+	"Go/autodoc/controllers"
 )
 
 func init() {

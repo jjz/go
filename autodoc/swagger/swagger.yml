@@ -26,7 +26,7 @@ paths:
       tags:
       - object
       description: create object
-      operationId: ObjectController.Create
+      operationId: ObjectController.create
       parameters:
       - in: body
         name: body
@@ -61,7 +61,7 @@ paths:
       tags:
       - object
       description: update the object
-      operationId: ObjectController.Update
+      operationId: ObjectController.update
       parameters:
       - in: path
         name: objectId
@@ -84,7 +84,7 @@ paths:
       tags:
       - object
       description: delete the object
-      operationId: ObjectController.Delete
+      operationId: ObjectController.delete
       parameters:
       - in: path
         name: objectId
@@ -101,7 +101,7 @@ paths:
       tags:
       - user
       description: get all Users
-      operationId: UserController.GetAll
+      operationId: UserController.Get
       responses:
         "200":
           schema:
@@ -110,7 +110,7 @@ paths:
       tags:
       - user
       description: create users
-      operationId: UserController.CreateUser
+      operationId: UserController.createUser
       parameters:
       - in: body
         name: body
@@ -145,7 +145,7 @@ paths:
       tags:
       - user
       description: update the user
-      operationId: UserController.Update
+      operationId: UserController.update
       parameters:
       - in: path
         name: uid
@@ -168,7 +168,7 @@ paths:
       tags:
       - user
       description: delete the user
-      operationId: UserController.Delete
+      operationId: UserController.delete
       parameters:
       - in: path
         name: uid
@@ -185,7 +185,7 @@ paths:
       tags:
       - user
       description: Logs user into the system
-      operationId: UserController.Login
+      operationId: UserController.login
       parameters:
       - in: query
         name: username
