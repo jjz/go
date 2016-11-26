@@ -20,3 +20,4 @@ func (c *MainController)Index() {
 
 	c.TplName = "index.html"
 }
+

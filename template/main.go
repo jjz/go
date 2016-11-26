@@ -10,6 +10,7 @@ import (
 	"fmt"
 	"github.com/yosssi/ace"
 	"strings"
+	"os"
 )
 
 func main() {
@@ -58,4 +59,13 @@ func addJadeTemplate() {
 	})
 }
 
+type User struct {
+	Name string
+}
 
+func useTemplate() {
+	t := template.New("template example")
+	t, _ = t.Parse("hello {{.Name}}!")
+	p := User{Name: "jjz"}
+	t.Execute(os.Stdout, p)
+}
