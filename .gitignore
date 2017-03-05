@@ -27,3 +27,4 @@ template
 beego_auto_doc/swagger
 lastupdate.tmp
 autodoc/AutoDoc
+.DS_Store
